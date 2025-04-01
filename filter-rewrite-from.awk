@@ -1,4 +1,4 @@
-#!/usr/bin/env awk -f
+#!/usr/bin/awk -f
 # vim: set ft=awk: ts=4:
 #
 # USAGE:

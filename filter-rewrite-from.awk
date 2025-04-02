@@ -114,6 +114,7 @@ BEGIN {
 	rewrite = !index(rcpt, DOMAIN)
 	print("filter-result", sid, token, "proceed")
 	fflush()
+	next
 }
 
 ("filter|smtp-in|data-line" == $1_$4_$5) {
